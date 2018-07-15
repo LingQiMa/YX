@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/rg_tv_register"
+        android:text="注册"
+        android:textColor="@color/colorExtremeWhite"
+        android:background="@drawable/green_button"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="32dp"
+        android:textSize="@dimen/sizebig"
+        android:clickable="true"
+        android:layout_width="140dp"
+        android:layout_height="35dp"/>
+    <TextView
+        android:id="@+id/rg_tv_login"
+        android:text="登录"
+        android:gravity="center"
+        android:textSize="@dimen/sizebig"
+        android:background="@drawable/register_login"
+        android:textColor="@color/colorExtremeWhite"
+        android:layout_toRightOf="@id/rg_tv_register"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_width="140dp"
+        android:layout_height="35dp"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/rg_vp_viewPager"
+        android:layout_above="@id/rg_tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

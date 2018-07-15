@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fx_leftPic">20dp</dimen>
+    <dimen name="hy_txlWidth">100dp</dimen>
+    <dimen name="hy_txlHeight">35dp</dimen>
+    <dimen name="backlength">20dp</dimen>
+</resources>
